@@ -1,0 +1,6 @@
+#hadoop::config::zookeeper_hosts: "%{lookup('profiles::zookeeper_hosts')}"
+hadoop::config::test_array:
+  - 'one'
+  - 'two'
+  - 'three'
+  - 'four'
